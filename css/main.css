@@ -1,3 +1,75 @@
 body {
-  
+  background-color: #f8f8f8;
+}
+
+main {
+  margin: 10px 20px;
+}
+
+main h1 {
+  margin: 20px 0 3px 0;
+  font-size: 28px;
+  font-family: 'Noto Serif JP';
+  font-weight: 500;
+  box-sizing: border-box;
+  border-bottom: solid 3px #888888;
+}
+
+main .updated-date {
+  margin: 3px 0 10px 0;
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  box-sizing: border-box;
+  border-bottom: solid 1px #000;
+}
+
+main h2 {
+  margin: 20px 0 5px 0;
+  font-size: 24px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  box-sizing: border-box;
+  border-bottom: solid 1px #888888;
+}
+
+main h3 {
+  margin: 20px 0 5px 0;
+  font-family: 'Noto Sans JP';
+}
+
+main p {
+  margin: 5px 0;
+  font-family: 'Noto Sans JP';
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a[href=''] {
+  color: red;
+}
+
+main a[href='']:visited {
+  color: red;
+}
+
+main table {
+  border-collapse: collapse;
+}
+
+main td,main th {
+  padding: 3px;
+  font-size: 14px;
+  border: solid 1px #888888;
+}
+
+main th {
+  background-color: #dddddd;
+  text-align: center;
+}
+
+main td {
+  background-color: #eeeeee;
 }
